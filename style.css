@@ -1,0 +1,81 @@
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+/*Прижатый фуутер*/
+.roditel{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	min-height:100%;
+	display:table;
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.header,.footer{
+	display:table-row;
+	height:1px;
+}
+.header,.content,.footer{
+	display:table-row;
+}
+/*Roditel*/
+.roditel{
+	position:relative;
+}
+/* header*/
+.header{
+	height:100px;
+}
+/*Menu*/
+.menu{
+	margin-top:40px;
+	background: linear-gradient(to top, #ACADA9, #E0E1D6);
+}
+.main-menu{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.main-menu>li{
+	display:inline-block;
+	position:relative;
+	background: linear-gradient(to top, #ACADA9, #E0E1D6);
+}
+.main-menu>li>a{
+	display:inline-block;
+	padding:10px 20px;
+	text-decoration:none;
+	color:#262620;
+}
+.main-menu>li>a:hover{
+	/*background: linear-gradient(to top, #fff, #848476);*/
+	background-color:black;
+	/*color:#9CA166;*/
+	color:white;
+}
+/*Slider*/
+.slider{
+	width:800px;
+	height:50px;
+}
+/*Search*/
+.search{
+	position:absolute;
+	top:100px;
+	left:600px;
+}
+/*Content*/
+.content{
+	background-color:#fff;
+	padding-bottom:20px;
+}
+.content_in{
+	background-color:blue;
+	width:1000px;
+}
+/*Footer*/
+.footer{
+	height:40px;
+	background-color:#e5e5e5;
+}
