@@ -1,0 +1,160 @@
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+/*Прижатый фуутер*/
+.roditel{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	min-height:100%;
+	display:table;
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+.header,.footer{
+	display:table-row;
+	height:1px;
+}
+.header,.content,.footer{
+	display:table-row;
+}
+/*Roditel*/
+.roditel{
+	position:relative;
+}
+/* header*/
+.header{
+	margin-top:0;
+	height:100px;
+	padding-bottom:1px;
+	background-color:#fff;
+}
+.header img{
+	position:absolute;
+	width:500px;
+	height:100px;
+}
+.header .slova_teh p{
+	float:right;
+	left:400px;
+	top:5px;
+	margin:0;
+	color:black;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Times New Roman;
+}
+.header .slova_teh span{
+	float:right;
+	float:right;
+}
+.header .slova_teh{
+	padding-right:10px;
+	margin-top:10px;
+}
+/*Menu*/
+.menu{
+	margin-top:100px;
+	background: linear-gradient(to top, #ACADA9, #E0E1D6);
+}
+.main-menu{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.main-menu>li{
+	display:inline-block;
+	position:relative;
+	background: linear-gradient(to top, #ACADA9, #E0E1D6);
+}
+.main-menu>li>a{
+	display:inline-block;
+	padding:10px 20px;
+	text-decoration:none;
+	color:#262620;
+}
+.main-menu>li>a:hover{
+	/*background: linear-gradient(to top, #fff, #848476);*/
+	background-color:black;
+	/*color:#9CA166;*/
+	color:white;
+}
+
+/*Search*/
+.search{
+	position:absolute;
+	top:110px;
+	left:600px;
+}
+/*Content*/
+.content{
+	background-color:#fff;
+	padding-bottom:20px;
+}
+.content_in{
+	background-color:white;
+	width:1000px;
+	margin:20px;
+}
+/*новости*/
+.news{
+	float:left;
+	width:500px;
+	border:1px dotted #e5e5e5;
+}
+.news h2{
+	border-bottom:2px solid #ff0000;
+	text-align:center;
+}
+.news p{
+	text-align:center;
+}
+.news hr{
+	background-color:#ff0000;
+	height:1px;
+	margin:0 auto;
+	width:400px;
+}
+/*о кафедре*/
+.okaf h2{
+	text-align:center;
+	border-bottom:1px solid #e5e5e5;
+}
+.okaf img{
+	width:800px;
+	height:500px;
+	margin-left:10%;
+}
+/*Фотография главный страница*/
+.fotografia{
+	float:right;
+	border:1px dotted #e5e5e5;
+	width:490px;
+}
+.fotografia h2{
+	border-bottom:2px solid #ff0000;
+}
+.fotografia img{
+margin:0 20px;
+}
+/*сотрудники*/
+.sotrudniki p{
+	display:inline-block;
+	vertical-align:top;
+	width:500px;
+	margin-left:20px;
+}
+.sotrudniki img{
+	display:inline-block;
+}
+/*Footer*/
+.footer{
+	height:40px;
+	background-color:#e5e5e5;
+}
+.footer h2{
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+}
