@@ -1,9 +1,31 @@
 ﻿<?
 include 'function.php';
-?>
+		$title='';
+			$id =strip_tags($_GET['id']);
+				switch ($id){
+					case 'index.inc':
+						$title='Главный';
+						break;
+					case 'sotrudniki':
+						$title='Сотрудники';
+						break;
+					case 'uchebniy_pos':
+						$title='Учебные пособия';
+						break;
+					case 'okaf':
+						$title='О Кафедре';
+						break;
+					case 'search_to_books':
+						$title='Поиск';
+						break;
+					default:
+						$title='Главный';
+						break;
+				}
+			?>
 <html>
 <head>
-	<title>Главный</title>
+	<title><?=$title;?></title>
 	<link rel='stylesheet'href='stylee.css'>
 	<link rel='stylesheet'href='style.css'>
 	<script type="text/javascript" src="js/script.js"></script>
