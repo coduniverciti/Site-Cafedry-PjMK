@@ -102,19 +102,26 @@ html,body{
 	float:left;
 	width:500px;
 	border:1px dotted #e5e5e5;
+	padding:3px;
 }
 .news h2{
 	border-bottom:2px solid #ff0000;
 	text-align:center;
+	padding:0;
+	margin:0;
 }
 .news p{
-	text-align:center;
+	text-align:left;
 }
 .news hr{
 	background-color:#ff0000;
 	height:1px;
 	margin:0 auto;
 	width:400px;
+}
+.news  p.p{
+	font:20px bold;
+	text-align:center;
 }
 /*о кафедре*/
 .okaf h2{
@@ -134,9 +141,16 @@ html,body{
 }
 .fotografia h2{
 	border-bottom:2px solid #ff0000;
+	padding:0;
+	margin:0;
+	margin-top:3px;
+	text-align:center;
 }
 .fotografia img{
 margin:0 20px;
+}
+.fotografia video{
+	margin-left:10px;
 }
 /*сотрудники*/
 .sotrudniki p{
